@@ -15,6 +15,8 @@ def countdown(counter):
             counter = new_value
         counter = counter - 1
 
+    # this is the only new part
+    # if you send 'fault' once you're at this part, it'll restart the footrace() gen
     yield from footrace()
 
 

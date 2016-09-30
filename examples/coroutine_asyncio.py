@@ -12,3 +12,8 @@ async def example():
     print('example: Resuming example coroutine after first await')
     await asyncio.sleep(5)
     print('example: Resuming example coroutine after 5 second sleep')
+
+# to run:
+    # task = asyncio.ensure_future(example())
+    # loop = asyncio.get_event_loop()
+    # loop.run_until_complete(task)

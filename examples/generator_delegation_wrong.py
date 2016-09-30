@@ -15,8 +15,11 @@ def countdown(counter):
             counter = new_value
         counter = counter - 1
 
+    # this is the new part:
     for item in footrace():
         yield item
+
+    # can't send anything to that footrace() generator
 
 def footrace():
     """

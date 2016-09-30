@@ -3,6 +3,7 @@ Example of a simple class implementing iterator
 protocol (PEP 232)
 """
 
+# iterator is a class
 
 class Countdown():
 
